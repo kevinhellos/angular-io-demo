@@ -2,6 +2,8 @@
 <div class="box1">
   <h1>Parent</h1>
   <p>Data in parent: {{book}}</p>
+
+  <!-- Capture the $event emitted in child.component.ts -->
   <app-child
     [book]="book"
     (newBook)="updateBook($event)"

@@ -15,6 +15,9 @@ export class ChildComponent {
   @Output() newBook = new EventEmitter<string>();
 
   changeBook() {
+    // console.log("updateBook in child component");
+    
+    // Emit an $event
     this.newBook.emit("Book changed");
   }
 }

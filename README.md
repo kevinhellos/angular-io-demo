@@ -2,4 +2,4 @@
 Demo of @Input and @Output and EventEmitter in Angular
 
 ## Demo site
-// To add
+[https://angular-io-demo.netlify.app/](https://angular-io-demo.netlify.app/)
